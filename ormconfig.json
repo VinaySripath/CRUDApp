@@ -1,0 +1,15 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "postgres",
+  "database": "crudapp",
+  "synchronize": true,
+  "logging": false,
+  "migrations": ["migrations"],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "migrations"
+  }
+}
